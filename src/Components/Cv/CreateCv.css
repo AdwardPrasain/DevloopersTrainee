@@ -1,0 +1,275 @@
+
+.create .main{
+    border: 8px solid white;
+    /* background-color: #A9CCE3; */
+    /*  */
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    color: white;
+    font-size:large;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.create .cv{
+    font-size: xx-large;
+    background-color: #283747;
+    color: white;
+   
+}
+.create .About{
+    display: flex;
+    margin-top: 20px;
+}
+.create .About label {
+    margin-top: 30px;
+}
+.create .About input{
+    border: 2px solid black;
+    border-radius:8px ;
+    height: 70px;
+}
+
+.create .Name{
+    display: flex;
+    text-align: center;
+    /* margin-top: 5px; */
+}
+
+.create .Designation{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+  margin-bottom:20px ;
+    
+}
+.create .flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.create  .photo{
+   
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+.create .input::placeholder{
+color: black;
+
+}
+
+.create .upperflex{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* height: 230px; */
+    margin-bottom: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+/* .create input{
+    border: 2px solid black;
+    border-radius:8px ;
+    height: 20px;
+  
+
+} */
+.create label{
+    color: black;
+}
+
+
+.create label{
+    color: black;
+}
+
+.create .Education{
+    
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+}
+.create .Edu{
+    font-size: 18px
+    ;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial ', Arial, sans-serif;
+   
+}
+.create .Details{
+    margin-top: 15px;
+    border: 2px solid black;
+    margin-left: 20px;
+    background: #A9CCE3;
+    
+}
+
+.create .Experience{
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+}
+
+.create .Detail{
+    margin-top: 15px;
+    border: 2px solid black;
+    margin-left: 100px;
+    background: #A9CCE3;
+}
+
+.create .SkillDetails{
+    margin-top: 15px;
+    border: 2px solid black;
+    margin-left: 20px;
+    background: #A9CCE3;
+
+}
+
+.create .Skill{
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+    padding-right: 30px;
+}
+
+
+.create .LanguageDetails{
+    margin-top: 15px;
+    border: 2px solid black;
+    margin-left: 100px;
+    background: #A9CCE3;
+}
+
+.create .Language{
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+}
+
+.create .AchivementDetails{
+    margin-top: 15px;
+    border: 2px solid black;
+    margin-left: 100px;
+    background: #A9CCE3;
+}
+
+.create .Achivement{
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+}
+
+
+
+.create .ReferenceDetails{
+    margin-top: 15px;
+    border: 2px solid black;
+    /* margin-left: 00px; */
+    margin-left: 20px;
+    background: #A9CCE3;
+   
+}
+
+.create .Reference{
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+   
+}
+
+.create .ContactDetails{
+    margin-top: 30px;
+    border: 2px solid black;
+    margin-left: 00px;
+    background: #A9CCE3;
+}
+
+.create .Contact{
+
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+}
+
+.create .TrainingDetails{
+    margin-top: 15px;
+    border: 2px solid black;
+    margin-left: 20px;
+    /* width: 500px; */
+    margin-left: 100px;
+    background: #A9CCE3;
+    
+}
+
+.create .Project{
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+   
+}
+
+.create .ProjectDetails{
+    margin-top: 15px;
+    border: 2px solid black;
+    margin-left: 20px;
+    background: #A9CCE3;
+    
+}
+
+.create .Project{
+    
+    font-size: x-large;
+    background-color: #283747;
+    color: aliceblue;
+}
+
+.create .tables{
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom:25px;
+    margin-top: 25px;
+    overflow-x:auto;
+}
+.tables th, .tables td{
+     border: 1px solid #154360;
+     padding:8px;
+}
+.tables th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:center;
+    background-color: #1F618D;
+    color: white;
+}
+
+.tables tr:nth-child(even){background-color: #f2f2f2;}
+
+.tables tr:hover {background-color: #ddd;}
+
+#btnSaved{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+    background-color: #5DADE2;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px 15px 15px;
+    cursor: pointer;
+}
+#btnid{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+    background-color: #5DADE2;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px 15px 15px;
+    cursor: pointer;
+}

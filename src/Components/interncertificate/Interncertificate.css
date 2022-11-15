@@ -1,0 +1,101 @@
+
+.Back{
+    width: 100%;
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+.All1{
+    width: 66%;
+   margin-left: 18%;
+   border: 5px solid grey;
+   background: wheat;
+    
+}
+
+.Intern .Upper{
+     /* background:radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+     radial-gradient(ellipse farthest-corner at left top, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);; */
+     background: #ffd89b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+}
+
+.Intern .Certificate{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    /* border:2px solid #8A6E2F; */
+    font-style: oblique;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.Intern .Reg label{
+text-align: start;
+font-weight: bold;
+}
+
+.Intern .Tech{
+    color:linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #152733;
+}
+
+.Intern .Refdate{
+    display: flex;
+    flex-direction: row;
+
+}
+.Intern .Date{
+margin-left: 500px;
+text-align: justify;
+}
+
+.Intern .Ref{
+text-align: justify;
+}
+
+.Intern .Concern{
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+/* color: rgb(82, 75, 75); */
+color: white;
+margin-top: 25px;
+font-weight:bolder;
+margin-bottom: 15px;
+margin-left: 30%;
+/* border: 2px solid grey; */
+width: 38%;
+/* background:#004e92; */
+
+background:grey;
+
+
+}
+
+.Intern .Paragraph span{
+    display: block;
+    text-align: justify;
+    margin: 10px;
+    align-content: space-evenly;
+}
+.Intern .Sign {
+    margin-top: 50px;
+    margin-left: 600px;
+ text-align: justify;
+ 
+}
+.Intern .Sign {
+    margin-bottom: 20px;
+    
+    justify-content: space-evenly;
+}
+.All1{
+    width: 69%;
+    margin-left: 18%;
+    border: 5px solid grey;
+    background: wheat;
+    margin-top: 20px;
+}

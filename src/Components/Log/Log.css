@@ -1,0 +1,338 @@
+
+.Log{
+    /* background: #fc00ff;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #00dbde, #fc00ff); */
+    /* background: rgb(22,54,79); */
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+/* background: linear-gradient(180deg, rgba(22,54,79,1) 100%, rgba(0,134,228,1) 100%); */
+}
+
+.Log .Wrapper{
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* margin-left: 300px; */
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;  
+    width: 70%;
+    margin-left: 14%;
+}
+.Log .First{
+    border: 4px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ 
+}
+
+.Log .First label{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(142, 144, 207));
+    /* -webkit-text-fill-color: transparent; */
+
+} 
+ .Log .Name{
+font-weight: bolder;
+margin-bottom: 10px;
+display:flex;
+flex-direction: column;
+align-items: center; 
+
+}
+
+.Log .Name label{
+    margin-top: 30px;
+    display: block;
+    width:200px;
+    border: None;
+    font-size: larger;
+    box-shadow: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Log .Name input{
+    width: 230px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    background: transparent;
+    border-bottom: 2px solid rebeccapurple;
+}
+.Log .Name input:focus {
+    outline: none;
+}
+
+.Log .Date label {
+    margin-top: 20px;
+    font-weight: bolder;
+    /* /* display: block; */
+    margin-top: 10px;
+    border: None;
+    font-size: larger;
+    box-shadow: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 84%;
+}
+.Log .Date input{
+   
+   border: 2px solid wheat;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-bottom: 2px solid rebeccapurple;
+    color: white;
+    background: transparent;
+    margin-top: 10px;
+   margin-right
+   : 65%;
+   
+
+}
+.Log .inputflex input{
+    border-spacing: 100px;
+}
+.Log .Date input:focus {
+    outline: none;
+}
+
+.Log .Date ::placeholder{
+color:black;
+text-align: center;
+}
+/* .Log .Date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+.Log .Done{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.Log .Name textarea{
+    color: white;
+    background: transparent;
+    border: 2px solid rebeccapurple;
+    margin-top: 25px;
+    width: 85%;
+    border:2px solid black;
+    background-color: lightblue;
+    border-radius:12px;
+    margin-bottom: 20px;
+}
+
+.Log .Done textarea:focus {
+    outline: none;
+}
+
+.Log .Done label{
+    font-weight: bolder;
+    display: block;
+    width:250px;
+    border: None;
+    font-size: larger;
+    box-shadow: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.Log .Observation{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.Log .Observation label{
+    border: None;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+    width: 100%;
+}
+.Log .Below{
+    margin-top: 10px;
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 10px;
+}
+.Log .Skil{
+    display: flex;
+
+    
+}
+.Log .Skil label{
+    font-weight: bolder;
+    display: block;
+    width:500px;
+    
+    font-size: larger;
+    box-shadow: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 25px;   
+}
+
+.Log .Skil textarea {
+    color: white;
+    background: transparent;
+    border: 2px solid rebeccapurple;
+    margin-top: 25px;
+    width: 330px;
+    border:2px solid black;
+    background-color: lightblue;
+    border-radius:12px;
+    height: 70px;
+   
+}
+
+/* .Log .Evidence label{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    color: #FFFFFF;
+  margin-left: 500px;
+    /* position: absolute; */
+    /* margin-bottom: 20px;
+    margin-top: 50px;
+    box-sizing: small;
+} */ 
+.Log .Evidence{
+    background-color: rgb(134, 134, 232);
+    padding:10px;
+    
+}
+
+.Log .textarea{
+    /* border-radius: 5px;
+    background-color: azure; */
+    color: white;
+    background: transparent;
+    border: 2px solid rebeccapurple;
+    margin-top: 10px;
+    width: 330px;
+    border:2px solid black;
+    background-color: lightblue;
+    border-radius:12px;
+    height: 70px;
+}
+
+
+.Log .ev{
+    display: flex;
+    
+}
+.Log .evContent input{
+    height:100px;
+    width:200px;
+    border-radius:10px;
+    background-color: #ddd;
+}
+.Log .evContent label{
+display: block;
+font-size: larger;
+font-weight: bold;
+}
+.Log .evContent{
+    margin:2%;
+    display: flex;
+}
+
+
+ .Log .button-1{
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 10%;
+} */
+
+.Log .button-1:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.Log .button-1:main,
+.Log .button-19:focus {
+  user-select: auto;
+}
+
+.Log .button-1:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.Log .button-1:disabled {
+  cursor: auto;
+} 
+
+.Log .create .table{
+    border-collapse: collapse;
+    width: 0%;
+    margin-bottom:25px;
+    margin-left: 100%;
+    margin-top: 25px;
+    overflow-x:auto;
+}
+.Log .create .table th, .table td{
+     border: 1px solid #7FB3D5;
+     padding:8px;
+     color:black;
+}
+.Log .create .table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:center;
+    background-color: #5DADE2;
+    color:black;
+}
+
+.Log.create .table tr:nth-child(even){background-color: #f2f2f2;}
+
+.Log .create .table tr:hover {background-color: #ddd;}
+
