@@ -1,0 +1,67 @@
+.Log{
+    width:80%;
+    margin-left:10%;
+}
+.headingLog{
+    color:#1F618D;
+    height:50px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  
+}
+.LogContent{
+    background-color: #7fb2d4;
+    box-shadow:rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.Groups{
+    display: flex;
+}
+.contentGroup{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding-top:10px;
+}
+.contentGroup input{
+    border-radius:5px;
+    width:160px;
+}
+.haveDone{
+    background-color:aliceblue;
+    height:100px;
+    padding:15px;
+}
+.haveDone input{
+    width:40%;
+    height:60%;
+    border-radius: 5px;
+}
+.obersvation{
+    background-color: #7fb2d4;
+    padding:10px;
+}
+.obHead, .evHead{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.obContent, .evContent{
+    margin:2%;
+}
+.textarea{
+    border-radius: 5px;
+    background-color: azure;
+}
+.Evidence{
+    background-color: aliceblue;
+    padding:10px;
+    
+}
+.ev{
+    display: flex;
+}
+.evContent input{
+    height:100px;
+    width:200px;
+    border-radius:10px;
+}

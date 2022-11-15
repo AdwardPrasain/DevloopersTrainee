@@ -1,0 +1,121 @@
+.WholeSection{
+    margin-top:1%;
+    width:95%;
+    margin-left:4%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    display: flex;
+}
+.CommonSection{
+    width:50%;
+    margin-left:25px;
+}
+.headTag{
+ width: 100%;
+ background-color: #154360;
+ height:90px;
+ text-align: center;
+}
+.headTag span{
+    font-size:48px;
+    color: #D4E6F1;
+    font-family:monospace;
+}
+.headTag p{
+    font-size:30px;
+    color: #1F618D;
+}
+h2{
+    color: #154360;
+}
+h4{
+    color: rgb(121, 127, 127);
+}
+.aboutMe label{
+    display: block;
+    width:100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: #1F618D;
+}
+.Experience label{
+    display: block;
+    width:280px;
+}
+input{
+    background-color:  #D4E6F1;
+    border:transparent;
+    height:30px;
+    margin-top: 10px;
+    width:150px;
+    padding-left:8px;
+}
+
+.form-group input{
+    margin:8px;
+}
+.Role, .description, .Skills{
+    display:flex;
+    flex-direction: column;
+}
+.Role input, .description input, .dgf input{
+    margin-left:0 !important;
+    width:250px;
+    height:80px !important;
+}
+.inputPhoto{
+    width:140px;
+    height:140px;
+    border:1px solid #154360;
+    margin-left:40%;
+}
+.contact input{
+    margin:10px;
+}
+.SocialMedia input{
+    margin:10px;
+}
+.tables{
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom:25px;
+    margin-top: 25px;
+    overflow-x:auto;
+}
+.tables th, .tables td{
+     border: 1px solid #154360;
+     padding:8px;
+     color: black;
+}
+.tables th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:center;
+    background-color: #1F618D;
+    color: white;
+}
+
+.tables tr:nth-child(even){background-color: #f2f2f2;}
+
+.tables tr:hover {background-color: #ddd;}
+#btnSaved{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+    background-color: #5DADE2;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px 15px 15px;
+    cursor: pointer;
+}
+#btnid{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+    background-color: #5DADE2;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px 15px 15px;
+    cursor: pointer;
+}

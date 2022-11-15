@@ -1,0 +1,33 @@
+nav{
+  background-color:#1F618D;
+}
+.nav {
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 1px solid hsla(0,0%,100%,0.1);
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 13px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-link {
+    padding: 20px 20px;
+  }
+
+}
+
+/* End of Navigation bar styles  */

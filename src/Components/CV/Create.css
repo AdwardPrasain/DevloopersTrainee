@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.container{
+
+    display:flex; flex-direction:row;
+}
+
+
+
+.first-head{
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #4d163c 0%, #5f0a87 74%);
+    /* font-style: italic; */
+    font-family:'Poppins Semibold', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    margin-top:1px;
+    margin-bottom: 30px; 
+    width:95%;
+    /* margin-left:200px;  */
+    color:rgb(211, 213, 214);
+    padding-bottom: 30px;
+    margin-left:25px;
+}
+ .head-title{
+    padding-top:20px;
+ }
+
+
+.personal-container{
+    padding:6px;
+    width:500px;
+    margin-left:5.5%;
+    border-radius: 10px; 
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%);
+
+
+}
+.traineeForm{
+    border:0px solid rgb(88, 149, 198);
+    padding:4px;
+}
+
+.personal-detail{
+    font-size: 20px;
+    font-family: inherit;
+    font-style: italic;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8;
+    text-align: center;
+    color:rgb(3, 78, 66);
+    height:2rem;
+    padding-top:3px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.1em;    
+}
+
+
+.personal-row{
+    box-sizing:border-box;
+     width: 450px;
+     border: 2px solid  rgb(108, 140, 169);;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left:5px;
+     border-radius: 10px;
+     margin-top: 13px;
+     font-size: 13px;
+     font-family:Verdana, sans-serif;
+     color: rgb(255, 254, 255);
+     font-weight: bold;
+}
+
+.input-box{
+   border:none; 
+   background-color: transparent;
+   outline: none;
+   color:rgba(1, 7, 10, 0.836);
+   font-family: Convergence;
+   font-size: 16px;
+   margin-left: 10px;
+}
+
+
+.education-container{
+    padding:6px;
+    width:500px;
+    margin-left:6%;
+    border-radius: 10px;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%);
+}
+
+
+.education-qualification{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8;
+    text-align: center;
+    color:rgb(3, 78, 66);
+    height:2rem;
+    padding-top:3px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.07em;
+    font-style: italic;   
+}
+
+
+.education-row{
+    box-sizing:border-box;
+     width: 450px;
+     border: 2px solid rgb(108, 140, 169);
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left:5px;
+     border-radius: 10px;
+     margin-top: 13px;
+     font-size: 13px;
+     font-family:Verdana , sans-serif;
+     font-weight: bold;
+     color: rgb(255, 254, 255);
+}
+
+
+/* Styling add button */
+.add-button{
+    padding:7px 20px;
+    font-size: 18px;
+    position:relative;
+    margin:15px 205px;
+    background-image: linear-gradient(315deg, #03072b 0%, #09030e 74%);
+    color:white;
+    width:100px;
+    border-radius:30px;
+    font-family: Verdana, sans-serif;
+    transition:transform 0.3s ease; 
+}
+
+.add-button:Hover{
+transform: translate(-6px, -6px)
+}
+
+
+/* Styling table section */
+table{
+    width:90%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align:center;
+    margin-left:5%;
+    border-collapse:collapse;
+    height:150px;
+   
+}
+
+table tr td{
+    border:1px solid rgb(16, 99, 108);
+    color:white;
+    
+    
+}
+
+thead{
+    background-color: black;
+    color:white;
+}
+
+tbody tr:hover{
+    background-color:slategray;
+
+}
+
+
+/* styling contents inside choose container */
+.choose-container{
+    display:flex; 
+    flex-direction:row;
+}
+
+
+.question-container{
+ border:1px solid blue;
+ margin-top:15px;
+ /* background: #d9d2d2; */
+ background-color: #bdd4e7;
+ background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+ height:80px;
+ font-size:15px;
+ width:41%;
+ text-align: center;
+ padding-top: 15px;
+ font-family: poppins;
+ font-weight: bold;
+ margin-left:70px;
+ border-radius:5px;
+}
+.question-2{
+    padding-top:15px;
+}
+
+#training-name{
+    height:20px; 
+    font-size:15px; 
+    border: 2px solid rgb(0, 90, 128);
+}
+
+#file-input[type="file"]{
+    display:none;
+}
+
+.job-type-container{
+    border:1px solid blue;
+    margin-top:15px;
+    /* background: #d9d2d2; */
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    height:80px;
+    margin-left: 75px;
+    font-size:15px;
+    width:26%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: poppins;
+    font-weight: bold;
+    border-radius:5px;
+}
+.part-1{
+    display:flex;
+    flex-direction:row;
+}
+.part-2{
+    display:flex;
+    flex-direction:row;
+     margin-top:20px;
+}
+
+#full-time{
+    margin-left:50px;
+}
+
+#other{
+    margin-left:55px;
+}
+
+
+
+/* Styling content inside upload image */
+.upload-field{
+    text-align:center;
+    border:5px solid rgb(74, 109, 161);
+    border-radius:15px;
+    width:90px;
+    margin-top:15px;
+    height:85px;
+    margin-left:2%; 
+  } 
+
+  .icon-img{
+    margin-top:-10px;
+    height:45px;
+
+  }
+
+  .select-image{
+    color:rgb(1, 5, 6);
+    font-size:13px; 
+    font-family:Poppins,sans-serif;
+  }
+
+#inputTag{
+    display: none;
+  }
+  .Photo-label{
+    cursor:pointer;
+    margin-left: -10px;
+    margin-top: -12px;
+  }
+
+
+
+/* Here, styling the contents inside previous-employemnt and reference section */
+  .employment-reference{
+    display:flex; 
+    flex-direction:row;
+  }
+
+.previous-row{
+    box-sizing:border-box;
+     width: 450px;
+     border: 2px solid rgb(108, 140, 169);
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left:5px;
+     border-radius: 10px;
+     margin-top: 13px;
+     font-size: 13px;
+     font-family:Verdana, sans-serif;
+     color: rgb(255, 254, 255);
+     font-weight: bold;
+}
+
+
+.previous-employment-container{
+    padding:6px;
+    width:500px;
+    margin-left:5.5%;
+    border-radius: 10px; 
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%);
+    margin-top:15px;
+}
+
+.previous-employment{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8;
+    text-align: center;
+    color:rgb(3, 78, 66);
+    height:2rem;
+    padding-top:3px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.07em;
+    font-style: italic;
+}
+
+.reference-container{
+    padding:6px;
+    width:500px;
+    margin-left:5.5%;
+    border-radius: 10px; 
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%);
+    margin-top:15px;
+}
+
+.reference-row{
+    box-sizing:border-box;
+     width: 450px;
+     border: 2px solid rgb(108, 140, 169);
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left:5px;
+     border-radius: 10px;
+     margin-top: 13px;
+     font-size: 13px;
+     font-family:Verdana, sans-serif;
+     color: rgb(255, 254, 255);
+     font-weight: bold;
+}
+
+.reference{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8; 
+    text-align: center;
+    height:2rem;
+    padding-top:3px;
+    margin-top:1px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.07em;
+    font-style: italic;
+    
+}
+
+
+/* Here, styling the contents of skill, interest and expect  */
+.notice{
+        font-size: 10px;
+        border: solid 1px rgb(3, 8, 35); 
+        background-color:#03172b; 
+        text-align: center;
+        color:rgb(255, 255, 255);
+        height: 4rem;
+        padding-top:4px;
+        margin-top:5px;
+        word-spacing:0.1em;
+       font-family:poppins,sans-serif;     
+    }
+
+.lastflex{
+    display:flex;
+     flex-direction:column;
+     border:2px solid #153b5f;
+     margin-top: 20px;
+     background:#153b5f;
+    box-shadow: 5px 10px #082c4c;
+    height:250px;
+    margin-bottom:40px;     
+}
+
+.last-head{
+    margin-left:15px;
+    font-family:poppins, sans-serif;
+    font-size:17px;
+    color: #a8bcce;
+}
+
+.skill{
+    width: 21%;
+    margin-left:75px;
+}
+
+
+.input-interest{
+    border:none;
+    border-bottom: 1px solid rgb(0, 179, 255);
+    background-color: transparent;
+    outline: none;
+    width:65%;
+    margin-left:15px;
+    height:30px;
+    margin-bottom: 10px;
+
+}
+
+.interest{
+    width: 22%;
+    margin-left:100px;
+
+}
+
+/* .expect lastflex{
+ width:40%;
+ margin-left:140px;
+ height:30px;
+} */
+.expect{
+    margin-left:90px;
+    display:flex;
+     flex-direction:column;
+     border:2px solid #153b5f;
+     margin-top: 17px;
+    width:360px;
+    height:200px;
+    background:#153b5f;
+    /* padding: 10px; */
+    box-shadow: 5px 10px #082c4c;
+} 
+
+.input-expect{
+    border:none;
+    /* border-bottom: 1px solid rgb(0, 179, 255); */
+    background-color: transparent;
+    outline: none;
+    width:85%;
+    margin-left:15px;
+    height:150px;
+    margin-bottom: 10px;
+    font-size:15px;
+}
+
+
+/* styling submit button */
+.submit-container{
+    margin-left:93px;
+    margin-top:15px;
+
+}
+
+.btn-and-expect{
+    flex-direction:column;
+}
+#btn-submit{
+    height:35px;
+    width:80px;
+    border:1px solid teal;
+    border-radius: 8px;
+    background-color:teal;
+    color:lightcyan;
+    font-size:15px;
+    cursor:pointer;
+}
+
+#btn-submit:hover{
+    background-color:rgb(64, 8, 97);
+}
+
+
+
+
+
+/*Coding of media query started*/
+
+@media screen and (max-width: 480px) {
+    body{
+        border:5px solid rgb(0, 6, 9);
+    }
+    .first-head{
+    height: 90px;
+    font-size:22px;
+    font-family: sans-serif;
+    font-weight:normal;
+    margin-left:10px;
+    }
+
+    .container, .employment-reference{
+        display:flex;
+        flex-direction: column;
+        margin-left:-22px;
+    }
+    
+    .personal-container, .education-container, .previous-employment-container, .reference-container{
+        width:90%;
+        margin-bottom:10px;
+    }
+
+    .personal-row, .education-row, .previous-row, .reference-row{
+      width:90%;  
+    }
+    
+    .add-button{
+        margin-left: 160px;
+    }
+
+    table{
+        width:99%;
+        margin-left:-1px;
+    }
+    
+    .choose-container{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .question-container{
+        margin-left:-1px;
+        width:400px;
+        height:100px;
+    }
+    .question-1{
+        font-size:17px;
+    }
+
+    .job-type-container{
+        margin-left:-2px;
+        width:90%;
+    }
+
+    .last-section{
+      display:flex;
+      flex-direction:column;
+    }
+
+    .skill{
+        width:65%;
+    }
+
+    .interest{
+        margin-left:70px;
+        width:65%;
+    }
+
+    .expect{
+        margin-left:70px;
+        height: 150px;
+        width:65%;
+    }
+
+    .submit-container{
+        margin-left:180px;
+        margin-top:15px;
+        margin-bottom:6px ;
+    }
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.logtable{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom:25px;
+    margin-top: 25px;
+    overflow-x:auto;
+}
+.logtable th, .logtable td{
+     border: 1px solid #50738a;
+     padding:8px;
+}
+.logtable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:center;
+    background-color: #7fb2d4;
+    color: black;
+}
+.logtableHead{
+    width:90%;
+    margin-left:7%;
+}
