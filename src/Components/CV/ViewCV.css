@@ -1,0 +1,35 @@
+.whole{
+    width:70%;
+    margin-left:10%;
+    color: black;
+    display: flex;
+}
+
+.whole .left{
+    width:50%;
+    background-color: #52BE80;
+}
+
+.whole .right{
+    width:50%;
+    background-color: white;
+}
+
+.whole .headers{
+    margin-left: 3px;
+}
+
+.whole .Container{
+    margin-left:0.5px;
+    
+}
+
+
+.whole .photo{
+    border: 2px solid green;
+    height:150px;
+    width:200px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+

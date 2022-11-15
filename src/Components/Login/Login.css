@@ -1,0 +1,144 @@
+
+
+* {
+    font-family: poppins, "sans-serif";
+    box-sizing: border-box;
+}
+body{
+    background-color: #008080;
+}
+
+
+.main {
+    border: 4px;
+    width: 40%;
+    margin-left: 30%;
+    height: 400px;
+    width: 500px;
+    border: pink solid 2px;
+    /* background-image: url("img/2.jpg"); */
+}
+
+
+.main .label {
+    display: block;
+    width: 495px;
+    height: 30px;
+}
+
+.main .header {
+    text-align: center;
+    color: pink;
+}
+
+.main .User {
+    text-align: center;
+    color: tomato;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.main .password {
+    text-align: center;
+    margin-top: 30px;
+    color: tomato;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.main .pass1 {
+    text-align: center;
+    margin-left: 3%;
+
+}
+
+.main .pass1 a {
+    color: rgba(33, 171, 171, 0.541);
+}
+
+
+
+input {
+    height: 30px;
+    color: black;
+}
+
+.main .button {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main .btn1 {
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(157, 41, 41);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+
+.main .btnn{
+    
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(157, 41, 41);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.main .register {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 45px;
+    font-size: 40px;
+}
+
+.main .register-button{
+     font-size: 1rem;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(157, 41, 41);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+

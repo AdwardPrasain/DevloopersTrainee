@@ -1,0 +1,122 @@
+ .Econtainer {
+    padding: 15px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    margin-bottom:25px;
+}
+.Econtainer input{
+    border-radius: 15px;
+    width:250px;
+    border: #85929E;
+}
+.Erow{
+    display: block;
+}
+.Eform{
+    display: flex;
+    margin-bottom:15px;
+}
+.EDetails {
+    border: 1px solid #85929E;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    width: 300px;
+    background-color: #85929E;
+    color: azure;
+    margin-left: 35%;
+    margin-bottom:10px;
+}
+.Etable {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 0.5%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    overflow-x: auto;
+}
+
+.Etable th,
+.Etable td {
+    border: 1px solid #7FB3D5;
+    padding: 8px;
+}
+
+
+.Etable th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #256590;
+    color: white;
+
+}
+
+.Etable tr:nth-child(even) {
+    background-color: #938e8e;
+}
+.Etable tr:hover {
+    background-color: rgb(19, 19, 19);
+}
+
+.Ebutton {
+    text-align: center;
+    border-radius: 5px;
+}
+.Ebtn1 {
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+
+.Ebutton button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+tbody .btns{
+    cursor: pointer;
+    width:80px;
+    height:25px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+    background-color: black;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+  
+}
+
+.Eform label{
+    margin-top: 15px;
+    display: block;
+    width: 100px;
+
+}

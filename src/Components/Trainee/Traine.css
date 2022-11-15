@@ -1,0 +1,308 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+* {
+    font-family: poppins, "sans-serif";
+    box-sizing: border-box;
+}
+ .Wholes {
+    background-image: url("5.jpg");
+}
+
+.traine .Theader {
+    text-align: center;
+    /* padding-bottom: 2rem; */
+    /* padding-top: 2rem; */
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.traine .TPhoto {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    margin-left: 450px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.traine .Trow4 {
+    display: flex;
+
+}
+
+.traine .Tform-group{
+      margin: 2%;
+}
+
+
+.traine .Tsector1 {
+    display: flex;
+}
+
+.traine .Tsector {
+    height: 300px;
+    width: 25%;
+    margin: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.traine .Tsector input {
+    height: 230px;
+    width: 300px;
+    margin-left: 18px;
+    background: rgba(255, 255, 255, 0.32);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+}
+
+.traine .Tbadge {
+    border: 1px solid green;
+    border-radius: 5px 5px 25px;
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    padding: 2px;
+    background-color: #3498DB;
+    color: white;
+}
+
+
+.traine .TjobType {
+
+    display: flex;
+}
+
+.traine .Tbelow-table {
+    display: flex;
+}
+
+.traine .Tbelow-table p {
+    margin-top: 0%;
+    margin-right: 20px;
+}
+
+.traine #job,
+.traine #y {
+    width: 20px !important;
+    height: 12px !important
+}
+
+.traine .TTraining {
+    display: flex;
+    margin-left: 10%;
+}
+
+.traine .TTraining label {
+    display: block;
+    width: 250px;
+
+}
+
+.traine .TTraining input {
+    width: 250px;
+}
+
+.traine .TjobType label {
+    display: block;
+    width: 150px;
+
+}
+
+.traine .Tcommon {
+    border: 1px solid rgb(1, 74, 1);
+    width: 50%;
+    margin: 1%;
+    margin-top: 0.5%;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+}
+
+.traine .Tcontainer {
+    padding: 15px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    margin-bottom:20px;
+}
+
+
+.traine .TDisclaimer {
+    margin-bottom: 5px;
+    border: 1px solid#85929E;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    width: 230px;
+    background-color: #85929E;
+    color: azure
+}
+
+@media screen and (max-width:500px) {
+
+    .whole {
+
+        display: block;
+    }
+
+    .Trow,
+    .Trow1,
+    .Tcontainer {
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+
+    .TPhoto {
+        margin-left: 5px;
+    }
+
+
+}
+
+
+.traine .Trow,
+.traine .Trow1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.traine .TPosition {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.traine .TPosition label {
+    display: block;
+    width: 250px;
+}
+
+.traine label {
+    display: block;
+    width: 200px;
+}
+
+.traine .TRadio {
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.traine #full {
+    height: auto;
+}
+
+.traine .TReference1 {
+    margin-bottom: 5px;
+    border: 1px solid #85929E;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    width: 230px;
+    background-color: #85929E;
+    color: azure
+}
+
+.traine .TPrevious {
+    margin-bottom: 15px;
+    border: 2px solid #85929E;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    width:230px;
+    background-color: #85929E;
+    color: azure
+}
+
+
+
+
+
+.traine .TCurrentAddress {
+    font-size: 25px;
+}
+
+
+
+
+.traine .Ttable {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 0.5%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    overflow-x: auto;
+}
+
+.traine .Ttable th,
+.Ttable td {
+    border: 1px solid #7FB3D5;
+    padding: 8px;
+}
+
+
+.traine .Ttable th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #256590;
+    color: white;
+
+}
+
+.traine .Ttable tr:nth-child(even) {
+    background-color: #938e8e;
+}
+
+.traine .Ttable tr:hover {
+    background-color: rgb(19, 19, 19);
+}
+
+.traine .Tbutton {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.traine .Tbtn1 {
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+
+.traine .Tbutton button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}

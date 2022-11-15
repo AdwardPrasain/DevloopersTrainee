@@ -1,0 +1,95 @@
+.CommonSection {
+  border: 40px;
+  width:50%;
+  margin-right: 100px;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/* .about1{
+    margin-right: 70%;
+} */
+
+.about1 input{
+    height: 100px;
+    width: 250px;
+}
+
+.Experience{
+    margin-right:20%;
+}
+
+.Experience label{
+    width: 200px !important;
+    display: block;
+    text-align: start;
+    margin: 10px;
+    
+}
+
+.Experience h2{
+    margin-right: 400px;
+}
+
+.aboutMe{
+    margin-left: 0%;
+    background:rgb(128, 86, 32);
+}
+
+.CommonSection h4{
+    margin-right: 60%;
+    font-size: larger;
+}
+
+.Contains{
+    width: 100%;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+input{
+    width:150px;
+    height: 25px;
+}
+
+.headtag{
+    color: white;
+}
+
+.name{
+    margin-right: 50%;
+    display: flex;
+    background: #000;
+}
+
+.name label{
+    display: block;
+    /* width: 150px; */
+}
+
+.WholeSection{
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+.form-group {
+ display: flex;
+ margin:2%;
+ width: max-content;
+
+}
+
+.form-group label{
+    display: block;
+    width: 100px;
+}
+
+.headtag{
+    font-size: 25px;
+    font-weight: 300;
+}

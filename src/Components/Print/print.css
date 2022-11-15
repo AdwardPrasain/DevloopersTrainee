@@ -1,0 +1,352 @@
+.print{
+    width: 100%;
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    }
+    .All{
+        width: 70%;
+        height: 100%;
+        /* background-image: url("img/bggimg.. jpg"); */
+        /* background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
+        background-color: #ddd;
+        background-position: center;
+        background-size: cover;
+        border: 5px solid black;
+        outline: 2px solid black;
+        padding: 1rem;
+        background-repeat: no-repeat;
+        
+    margin-left: 200px;
+    }
+    
+    .print .firstimg {
+        height: 100px;
+        display: flex;
+        border-radius: 60%;
+        border: 5px solid olivedrab;
+    
+    }
+    
+    .print .Topp {
+        border: 4px so lid white;
+        height: 120px;
+        box-shadow: rgba(50, 50, 93, 0. 25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .print .headd {
+        text-align: center;
+        font-size: 20px;
+        box-shadow: rgba(50, 50, 93, 0. 25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        border: 1px solid rgb(118, 118, 201);
+        background-color: #574687;;
+        width: 100%;
+        height: 60px;
+        color: #eee;
+        /* margin-left: 50px; */
+    }
+    
+    
+    .print .header22 u {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .print .photo {
+        height: 160px;
+        width: 150px;
+        margin-left: 80px;
+        margin-top: 20px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        font-size: 15px;
+        font-display: center;
+    
+    }
+    
+    .print .passport_photoo label {
+        font-size: 20px;
+        margin-top: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+    
+    }
+    
+    .print .wholelayout {
+        display: block;
+    }
+    
+    .print .fgroup {
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 600px;
+        margin: 10px;
+        height: 30px;
+        margin-left: 15%;
+    }
+    
+    .print .fgroup label {
+        width: 600px;
+        border-radius: 8px;
+        height: 30px;
+       
+    }
+    
+    
+    
+    .print .layout {
+    
+        background-color: #f1f8f4;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0. 1);
+        border: 3px solid white;
+        font-size: 1rem;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-right: 90px;
+        padding-top: 20px;
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+    
+    }
+    
+    .print .layout  {
+        border: 2px solid burlywood;
+        /* background-color: #574687; */
+        background-color: #83B0E0;
+        color: black;
+    font-weight: bold;
+    font-size: x-large;
+    display: block;
+    
+    }
+    
+    .print .layout1{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        /* flex-direction: row; */
+        
+    }
+    
+    .print .Qr {
+        margin-top: 10px;
+    }
+    
+    .print .Qr label {
+        font-size: 20px;
+        /* border: 2px solid red; */
+    }
+    
+    .print .check {
+        display: flex;
+        width: 500px;
+    }
+    
+    #check {
+        /* width: 15px; */
+        height: 12px;
+    }
+    
+    
+    .print .checkbox {
+        display: flex;
+        width: 100px;
+        
+    }
+    
+    .print .table {
+        margin-left: 20px;
+    }
+    
+    .print .table th,
+    .print .table td {
+        border: 1px solid #7FB3D5;
+        padding: 8px;
+    
+        /* margin-left: 20px; */
+    }
+    
+    .print .table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #32777F;
+        
+        color: white;
+        align-items: center;
+    
+    
+    }
+    
+    .print .table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .print .table tr:hover {
+        background-color: #ddd;
+    }
+    
+    .print .parttimee {
+        display: flex;
+        /* margin-left: 80px; */
+    }
+    
+    .print .Availabell {
+        margin-left: 250px;
+    }
+    
+    .print .wholee {
+        display: block;
+        background-color: f1f8f4;
+        border-radius: 16px;
+        /* border: 5px solid white; */
+        backdrop-filter: blur(8.8px);
+        -webkit-backdrop-filter: blur(8,8px);
+        /* border: 1px solid rgba(255, 255, 255, 0.print . 17); */
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        /* width: 550px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+    
+    }
+    
+    /* .print . fgroup label{
+        box-shadow: rgba(0, 0, 0, 0.print . 15) 0px 15px 25px, rgba(0, 0, 0, 0.print . 05) 0px 5px 10px;
+    } */
+    
+    .print .forr {
+        display: flex;
+        /* justify-content: center; */
+        margin-bottom: 40px;
+    
+    
+    }
+    
+    .print .containerr {
+        display: flex;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    
+    
+    .print .layout2 {
+        height: 380px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    }
+    
+    .print .layout3 {
+    
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    }
+    
+    .print .Interest label {
+    
+        text-align: center;
+        border: 2px solid black;
+        color: black;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 10px;
+        width: 170px;
+        height: 200px;
+    }
+    
+    /* .print . Interest input {
+        background-color: #83B0E0;
+        height: 200px;
+        margin-left: 0px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.print . 5) -3px -3px 6px 1px inset;
+        border: 2px solid beige;
+    } */
+    
+    /* .print . Skill input {
+        background-color: #83B0E0;
+        height: 200px;
+        margin-left: 90px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.print . 5) -3px -3px 6px 1px inset;
+        border: 2px solid beige;
+    } */
+    
+    .print .Skill label {
+        width: 170px;
+        text-align: center;
+        border: 2px solid black;
+        color: black;
+        margin-bottom: 10px;
+        margin-left: 90px;
+        border-radius: 10px;
+        height: 200px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    /* .print . Expect input {
+        background-color: #83B0E0;
+        height: 200px;
+        margin-left: 90px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.print . 5) -3px -3px 6px 1px inset;
+        border: 2px solid beige;
+    } */
+    
+    .print .Expect label {
+        width: 170px;
+    
+        text-align: center;
+        border: 2px solid black;
+        justify-content: center;
+        color: black;
+        margin-bottom: 10px;
+        margin-left: 90px;
+        border-radius: 10px;
+        height: 200px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    
+    label {
+        display: block;
+    }
+    
+    .print .Terms {
+        /* display:block; */
+        padding: 1em;
+        /* margin: 1em; */
+        border: 2px solid #ddd;
+        background-color: #eee;
+        /* width: 460px; */
+        margin-left: 130px;
+        box-sizing: content-box;
+        margin-top: 200px;
+        /* height: rem; */
+    }
+    
+    
+    .print .Terms input {
+        height: 2em;
+        width: 1em;
+        
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    .print .end {
+        
+        margin-bottom: 1rem;
+    }
+    
+    
+    .print .sign {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    .print .sign input {
+        width: 35%;
+        border-radius: 5px;
+    }
