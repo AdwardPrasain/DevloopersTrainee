@@ -19,6 +19,17 @@ function Login() {
 
   }
 
+  const [num, setNum] = useState(0);
+
+		function randomNumberInRange(min, max) {
+		  // 👇️ get number between min (inclusive) and max (inclusive)
+		  return Math.floor((Math.random()*1000000)+1);
+		}
+	  
+		const handleClick = () => {
+		  setNum(randomNumberInRange(1, 10));
+		};
+
   const handleSubmit =  (e) => {
     alert("Login success");
     e.preventDefault();
@@ -69,7 +80,10 @@ function Login() {
         <span className="forgot" id="forgot-password">Forgot Password</span>  
         <input type="button" className="lbtn" id="loginBtn" value="Login" name="loginBtn" onClick={handleSubmit}/>
         <input type="button" className="lbtn" id="signinBtn" value="Sign in" name="signinBtn"/>
-    
+        <div>
+      <h2>number is: {num}</h2>
+      <button onClick={handleClick}>Generate random number</button>
+    </div>
     </div>
        </div>
     </div>
