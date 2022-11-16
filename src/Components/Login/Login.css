@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #7f5a83;
+    background-image: linear-gradient(90deg, #1e0321 0%, #0d324d 74%);  
+}
+
+.lsection{
+   position: relative;
+   width: 100%;
+   height: 40vh; 
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   z-index:-1;
+}
+
+.lsection:before{
+   content:'';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 80.5%;
+   height: 100%;
+   background-color: #a4508b;
+   background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); 
+   border-radius: 0 0 50% 50%/ 0 0 100% 120%; 
+   transform: scaleX(1.5);
+}
+
+.heading{
+   position: relative;
+   z-index:1; 
+   max-width:900px;
+   margin-top: 0px;
+  text-align:center;
+}
+
+/* section .heading h2 h3{
+    color: #fff;
+    font-size:3em;   
+} */
+
+/* .heading{
+    border: 5px solid blue;
+} */
+
+.lbox{
+    border:1px solid teal;
+    width:24%;
+    align-items:center;
+    height:300px;
+    margin-left: 470px;
+    background-color: #f9c5d1;
+    background-color: #9fa4c4;
+    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+    border-radius:7px;
+    margin-bottom:10px;
+    z-index: 1;
+    margin-top:-60px;
+}
+
+.lrow{
+    margin-top:25px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left:5px;
+     margin-top: 13px;
+     font-size: 13px;
+     font-family: Convergence, sans-serif;
+     color: rgb(20, 28, 77);
+     font-weight:bold; 
+     margin-left: 10px;     
+}
+.lbl{
+  width: 100%;
+}
+
+.linputBox{
+    border:0.5px solid rgb(115, 94, 135); 
+   outline: none;
+   color:rgba(1, 7, 10, 0.836);
+   font-family: Convergence;
+   font-size: 16px;
+   height:24px;
+   border-radius: 2px;
+   width:85%;
+   margin-top: 5px;
+}
+
+.lbutton-section{
+    display:flex;
+    flex-direction: column;
+}
+
+#forgot-password{
+    margin-top:3px;
+    font-size:14px;
+    color:rgb(26, 58, 152);
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+#forgot-password:hover{
+    color:rgb(61, 2, 88);
+}
+
+.lbtn{
+    width:60%;
+    height:33px;
+    margin-left:62px;
+    margin-top: 20px;
+    background-color:rgb(6, 81, 121);
+    border: 0px solid;
+    color:#f8dee4;
+    cursor: pointer;
+}
+
+
+
+.lbtn:hover {
+    background-color: rgb(25, 17, 17);
+    color: orange;
+}
+
+
+
+
+/* Here we start media query */
+@media screen and (max-width: 480px) {
+    body{
+        border:5px solid rgb(0, 6, 9);
+    }
+   
+    .lcontainer{
+        border:4px solid green;
+    }
+
+    .lbox{
+        margin-left: 120px;
+        width: 50%;
+        margin-top: -25px;
+    }
+       
+}

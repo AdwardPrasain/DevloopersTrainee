@@ -1,0 +1,416 @@
+
+
+.createCv .form{
+ display: flex;
+ flex-direction:column;
+ z-index: -1;
+ 
+}
+  
+.createCv .up{
+  height:260px;
+  background-color: #f9c5d1;
+  background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+  
+}
+
+.down{
+  height:700px;
+  background-color:  linear-gradient(90deg, #a4508b 0%, #5f0a87 74%); 
+  
+}
+
+.createCv .container{
+  margin-left: 2.5%;
+  width: 95%;
+  z-index: 1;
+  margin-top:-900px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
+}
+
+.createCv .topPart{
+  height:200px;
+  background-color:rgb(215, 171, 24);
+
+}
+
+.createCv .photoSection{
+ 
+  height:140px;
+  width:12%;
+  background-color:#5490bb;
+  margin-left:7%;
+  position:absolute;
+  margin-top:130px;
+  z-index:2;
+  box-shadow: 3px 5px 3px #4f81b6;
+}
+
+
+
+.createCv .middlePart{
+  background-color: #a4508b;
+   background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); 
+  z-index:1.5;
+}
+
+.createCv .bottomPart{
+  height:130px;
+  background-color:rgb(215, 171, 24);; 
+}
+
+.createCv .nameSirName{
+  display:flex;
+  flex-direction:column;
+  width:250px;
+  margin-left: 310px;
+  position:absolute;
+  margin-top:40px;
+}
+
+.createCv .firstName{
+  width:150%;
+  height:40px;
+  font-size:30px;
+  background:transparent;
+  border:none;
+  outline:none;
+  font-family: "Century Gothic";
+  padding-left: 0px;
+  letter-spacing:1px;
+  
+}
+
+.createCv .fullName{
+  width:160%;
+  height:20px;
+  font-size:35px;
+  background:transparent;
+  border:none;
+  outline:none;
+  font-family: "Consolas";
+  font-weight:bold;
+  padding-left: 0px;
+  padding-left: 0px;
+  color:#65470b;
+  text-transform: uppercase;
+  margin-top:0px;
+  letter-spacing:1px;
+}
+
+
+
+.createCv .designation{
+  
+  height:20px;
+  color:black;padding-left:0px;
+  background:transparent;
+  border:none;
+  outline:none;
+  font-family: "Century Gothic";
+  font-size: 15px;
+  width:150%;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing:3px;
+}
+
+.createCv .aboutMeContainer{
+  border:0px solid black;
+  height:140px;
+  width:40%;
+  margin-left:45%;
+  z-index: 2;
+  margin-top:-60px;
+  position:absolute;
+  background:rgb(9, 97, 91)
+
+}
+
+.createCv .aboutMe{
+  margin-left:15px;
+  margin-top: 10px;
+  font-family: poppins, monospace;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing:2px;
+  color: rgb(215, 213, 213);
+}
+
+.createCv .inputAboutMe{
+  width: 83%;
+  height: 68%;
+  margin-left: 10px;
+  border: none;
+  background:transparent; 
+  outline: none;
+  padding-left: 30px;
+  padding-right: 20px;
+  font-family: poppins;
+  font-size: 15px;
+  color: #bfbee3;
+}
+
+
+
+.createCv .wholeContainer{
+  width:99.5%;
+  margin-left:1px;
+  margin-top: 101px;
+
+}
+
+.createCv .mainContainer{
+  border:1px solid rgb(51, 49, 95);
+}
+
+
+
+ .experianceContainer, .cvContactContainer , .cvReferenceContainer , .cvAchievementContainer , .cvProjectContainer , .cvTrainingContainer , .cvSkillsContainer , .cvLanguagesContainer {
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+  margin-bottom:20px;
+  border: 1px solid rgb(122, 188, 230);
+  border-radius: 15px;
+  width: 45%;
+  margin-left:3%;
+}
+
+.createCv .experienceTitle , .cvContactTitle ,.cvReferenceTitle , .cvAchievementTitle , .cvProjectTitle , .cvTrainingTitle , .cvSkillsTitle , .cvLanguagesTitle{
+  font-size: 20px;
+  font-family: inherit;
+  font-style: italic;
+  font-weight: bold;  
+  border: solid 1px rgb(140, 175, 167); 
+  background-color: #97afb8;
+  text-align: center;
+  color:rgb(3, 78, 66);
+  height:2rem;
+  padding-top:3px;
+  text-decoration-line:underline;
+  word-spacing:0.1em;
+  letter-spacing:0.1em;  
+  border-radius: 15px 15px 0px 0px;
+}
+
+.createCv .exInput , .cvContactInput , .cvReferenceInput , .cvAchievementInput , .cvProjectInput , .cvTrainingInput , .cvSkillsInput , .cvLanguagesInput{
+  width:70%;
+  outline: none;
+  height:15px;
+   background:transparent; 
+  height:21px;
+  padding-left: 5px;
+  font-size:16px;
+ border:none;
+}
+
+.createCv .cvExperienceRow  , .cvContactRow , .cvReferenceRow , .cvAchievementRow , .cvProjectRow , .cvTrainingRow , .cvSkillsRow , .cvLanguagesRow{
+  font-size: 15px;
+  font-family:poppins, sans-serif;
+  color: rgb(25, 23, 25);
+  font-weight: bold;
+  height:23px;
+  margin-bottom:3px;
+  margin-top: 5px;
+  margin-left:5px;
+}
+
+
+.createCv .cvContactContainer #cvContactPhone{
+  margin-bottom: 25px;
+}
+
+.createCv .addbtn1 ,.updatebtn1 , .cvContactAddbtn , .cvContactUpdatebtn , .refAddbtn , .refUpdatebtn , .achieveAddbtn , .achieveUpdatebtn , .projectUpdatebtn , .projectAddbtn , .trainingUpdatebtn , .trainingAddbtn ,  .skillsUpdatebtn , .skillsAddbtn , .languagesUpdatebtn , .languagesAddbtn{
+  background-color:rgb(7, 6, 5);
+  height:35px;
+  width:75px;
+  border-radius: 5px;
+  color:white;
+  font-size: 15px;
+  margin-left:25%;
+}
+
+.createCv .addbtn1:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .updatebtn1:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .cvContactAddbtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .cvContactUpdatebtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+
+.createCv .refAddbtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .refUpdatebtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .achieveAddbtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .achieveUpdatebtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+ 
+.createCv .projectAddbtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .projectUpdatebtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .trainingAddbtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .trainingUpdatebtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .skillsAddbtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .skillsUpdatebtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .languagesAddbtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+.createCv .languagesUpdatebtn:hover{
+  background-color:rgb(177, 119, 11);
+  border:2px solid rgb(177, 119, 11); 
+}
+
+
+.createCv .cvContactReference , .referenceAchievement , .projectTraining , .skillsLanguages{
+  display: flex;
+  flex-direction: row;
+}
+
+.wholeContainer table{
+  margin-left:2.5%;
+  height:40px;
+  align-items:center;
+  width:95%;
+ margin-top: 15px;
+ color:rgb(190, 190, 190);
+ font-family: poppins;
+ font-size: 14px;
+ margin-bottom: 5px;
+ border-collapse: collapse;
+}
+.wholeContainer th,  .wholeContainer td{
+  padding:8px;
+  border:1px solid rgb(4, 77, 47)
+}
+.wholeContainer th{
+ padding-top: 12px;
+ padding-bottom: 12px;
+ text-align:center;
+ background-color: rgb(1, 67, 46);
+ color: rgb(237, 237, 237);
+}
+
+.wholeContainer tbody{
+  color:black;
+
+}
+
+
+
+ .wholeContainer tbody tr:hover{
+  background-color:slategray;
+
+}
+
+.createCv .cvSocialTitle{
+  margin-left: 35%;
+  padding-top: 12px;
+  font-family: Poppins;
+  font-size: 17px;
+  color:rgb(11, 47, 86);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.createCv .cvSocialRowsSubmit{
+  display:flex;
+  flex-direction:row;
+  margin-top:18px;
+  margin-left: 25px;
+}
+
+.createCv .cvSocialRow{
+  margin-left: 27px;
+  font-family: poppins;
+  font-size:14px ;
+  color:rgb(3, 67, 67);
+  font-weight:bold;
+}
+
+.createCv .cvSocialinput{
+  margin-left:2px;
+  outline:none;
+  background:transparent;
+  font-size: 14px;
+  border: none;
+  border-bottom: 2px solid rgb(3, 67, 67); 
+
+}
+
+.createCv .cvSubmitButton{
+  margin-left: 7%;
+
+}
+
+.createCv .cvSubmitbtn{
+  background-color:rgb(7, 6, 5);
+  height:45px;
+  width:170px;
+  border-radius: 15px;
+  color:white;
+  font-size: 15px;
+}
+
+.createCv .cvSubmitbtn:hover{
+  background-color:rgb(3, 69, 52);
+  border:2px solid rgb(2, 44, 40); 
+}
+
+
+
+
+
+
+

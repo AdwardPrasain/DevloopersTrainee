@@ -1,0 +1,164 @@
+.log{
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    height:100%; 
+}
+
+.log .logTitle {
+    font-family:poppins, sans-serif;
+    padding-top: 15px;
+    margin-left: 43%;
+    margin-bottom: 5px;
+    font-weight:bold;
+    font-size:25px;
+    color:rgb(3, 64, 3);
+    text-decoration: underline;
+}
+
+.log .contentContainer{
+    border: 3px solid rgb(192, 147, 26);
+    width: 65%;
+    margin-left: 18%;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%); 
+}
+
+.log .firstContainer{
+   
+    width:95%;
+}
+
+.log .logRow{
+    margin-top:10px;
+    margin-left: 5px;
+    font-family: poppins;
+    color:rgb(210, 202, 202);
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.log .logInput{
+    width: 70%;
+    height: 20px;
+    margin-left:3px;
+    background-color:transparent;
+    color:aliceblue;
+    outline:none;
+    border:none;
+    font-size: 15px;
+}
+
+.log .logtextInput{
+    width: 90%;
+    height: 90px;  
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(171, 209, 234);
+    outline: none;
+    border: none;
+}
+
+.log .observationContainer{
+    border: 2px solid rgb(6, 70, 107);
+    background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+  width:95%;
+  margin-left:2.5%;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin: 15px;
+}
+
+.log .observationlbl{
+    margin-right:50%;
+}
+
+.log .observationRow{
+    margin-top:10px;
+    margin-left: 8px;
+    font-family: poppins;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.log .observationInput{
+    width: 80%;
+    height: 70px;  
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(207, 221, 231);
+    outline: none;
+    border: none;
+}
+
+
+
+.log .evidenceContainer{
+    border: 2px solid rgb(6, 70, 107);
+    background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+  width:95%;
+  margin-left:2.5%;
+  border-radius: 10px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.log .observationTitle , .evidenceTitle{
+    padding-top: 10px;
+    margin-left: 40%;
+    font-family: poppins;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(150, 101, 11);
+}
+
+.log .evidences{
+    display:flex;
+    flex-direction:row;
+}
+
+.log .evidenceRow{
+    margin-top:10px;
+    margin-bottom:15px;
+    font-family:poppins;
+    
+}
+
+.log .evidenceInput1{
+    margin-left: 125px;
+}
+
+.log .evidenceInput2{
+    background-color:transparent;
+     border:none; 
+    outline:none;
+    border-bottom: 1px solid rgb(65, 62, 62);
+    width:220px;  
+} 
+
+.logSavebtn{
+    padding-bottom:2%;
+ 
+}
+
+.logbtn{
+    background-color:rgb(17, 69, 114);
+    height:35px;
+    width:95px;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    margin-left:45%;
+    border:2px solid rgb(29, 29, 129);
+}
+
+.logbtn:hover{
+    background-color:rgb(177, 119, 11);
+    border:2px solid rgb(11, 19, 177); 
+  }
+

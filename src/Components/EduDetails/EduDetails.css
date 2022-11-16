@@ -1,0 +1,136 @@
+.ebody{
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    /* height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   */
+     overflow-x: hidden;
+    overflow-y: hidden; 
+  
+  
+  }
+  
+
+.educationContainer{
+    padding:6px;
+    width:75%;
+    margin-left:12%;
+    border-radius: 10px; 
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%);
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.educationQualification{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8;
+    text-align: center;
+    color:rgb(3, 78, 66);
+    height:2rem;
+    padding-top:3px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.07em;
+    font-style: italic;   
+}
+
+.educationRow{
+    box-sizing:border-box;
+    width: 95%;
+    color: rgb(255, 254, 255);
+    font-weight: bold;
+    border: 1px solid rgb(108, 140, 169);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:5px;
+    border-radius: 10px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-family:poppins, sans-serif;
+    color: rgb(255, 254, 255);
+    font-weight: bold;
+    height:40px;
+    margin-bottom: 7px;
+}
+
+.eduWarn{
+    color:rgb(203, 188, 188);
+    font-size: 12px;
+    font-family: poppins;
+}
+
+.einputBox{
+    border:none; 
+    background-color: transparent;
+    outline: none;
+    color:rgba(255, 255, 255, 0.836);
+    font-family: Convergence;
+    font-size: 16px;
+    margin-left: 10px;
+ }
+
+ .eaddButton, .eupdateButton{
+    padding:7px 20px;
+    font-size: 18px;
+    position:relative;
+    margin-left:200px;
+    background-image: linear-gradient(315deg, #03072b 0%, #09030e 74%);
+    color:white;
+    width:100px;
+    margin-top:10px;
+    border-radius:30px;
+    font-family: Verdana, sans-serif;
+    transition:transform 0.3s ease; 
+}
+
+.eduBtn{
+    display:flex;
+    flex-direction:row;
+}
+
+.eaddButton:Hover{
+transform: translate(-6px, -6px)
+}
+
+.eupdateButton:Hover{
+    transform: translate(-6px, -6px)
+    }
+
+
+/* Styling table section */
+.educationContainer table{
+    width:98%;
+    margin-top:15px;
+    margin-bottom: 20px;
+    text-align:center;
+    margin-left:1%;
+    border-collapse:collapse;
+    
+   
+}
+
+.educationContainer table tr td{
+    border:1px solid rgb(16, 99, 108);
+    color:white;
+    height:60px;
+    
+}
+
+.educationContainer thead{
+    background-color: black;
+    color:white;
+    height:45px;
+}
+
+.educationContainer tbody tr:hover{
+    background-color:slategray;
+
+}
+
+ 
+     

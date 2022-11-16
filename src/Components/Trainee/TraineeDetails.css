@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.traineeDetail .body{
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+  /* background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%); */
+  /* height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   */
+  overflow-x: hidden;
+}
+
+.traineeDetail .tcontainer{
+
+    display:flex; flex-direction:row;
+}
+
+
+
+.traineeDetail .firstHead{
+    background-color:rgb(215, 171, 24);
+    border-radius: 6px 36px;
+    /* font-style: italic; */
+    font-family:'Poppins Semibold', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    margin-top:1px;
+    margin-bottom: 30px; 
+    width:70%;
+    /* margin-left:200px;  */
+    color:rgb(3, 10, 64);
+    padding-bottom: 10px;
+    margin-left:0%;
+    letter-spacing:2px;
+    text-decoration: underline;
+
+}
+.traineeDetail .headTitle{
+    padding-top:20px;
+ }
+
+
+ .traineeDetail .personalContainer{
+    padding:6px;
+    width:86%;
+    margin-left:5.5%;
+    border-radius: 10px; 
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%); 
+    background-color:rgb(17, 142, 149);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 6px 8px #463c3c;
+
+
+}
+.traineeDetail .traineeForm{
+    border:0px solid rgb(88, 149, 198);
+    padding:4px;
+}
+
+.traineeDetail .personalDetails{
+    font-size: 20px;
+    font-family: inherit;
+    font-style: italic;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8;
+    text-align: center;
+    color:rgb(3, 78, 66);
+    height:2rem;
+    padding-top:3px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.1em;    
+}
+
+
+.traineeDetail .personalRow{
+    box-sizing:border-box;
+     width: 95%;
+     color: rgb(255, 254, 255);
+     font-weight: bold;
+     border: 1px solid rgb(108, 140, 169);
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left:5px;
+     border-radius: 10px;
+     margin-top: 13px;
+     font-size: 14px;
+     font-family:poppins, sans-serif;
+     color: rgb(255, 254, 255);
+     font-weight: bold;
+     height:40px;
+     margin-bottom: 7px;
+}
+
+.traineeDetail .tInputBox{
+   border:none; 
+   background-color: transparent;
+   outline: none;
+   color:rgba(255, 255, 255, 0.836);
+   font-family: Convergence;
+   font-size: 16px;
+   margin-left: 10px;
+   width: 60%;
+}
+
+     
+
+/* styling contents inside choose container */
+.traineeDetail .chooseContainer{
+    display:flex; 
+    flex-direction:row;
+}
+
+
+.traineeDetail .questionContainer{
+ border:1px solid blue;
+ margin-top:15px;
+ /* background: #d9d2d2; */
+ background-color: #bdd4e7;
+ background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+ height:80px;
+ font-size:15px;
+ width:41%;
+ text-align: center;
+ padding-top: 15px;
+ font-family: poppins;
+ font-weight: bold;
+ margin-left:70px;
+ border-radius:5px;
+}
+.traineeDetail .questionTwo{
+    padding-top:15px;
+}
+
+.traineeDetail #trainingName{
+    height:20px; 
+    font-size:15px; 
+    border: 2px solid rgb(0, 90, 128);
+}
+
+.traineeDetail #file-input[type="file"]{
+    display:none;
+}
+
+.traineeDetail .jobTypecontainer{
+    border:1px solid blue;
+    margin-top:15px;
+    /* background: #d9d2d2; */
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    height:80px;
+    margin-left: 75px;
+    font-size:15px;
+    width:26%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: poppins;
+    font-weight: bold;
+    border-radius:5px;
+}
+
+.traineeDetail #jobTypefor{
+ margin-top:-13px;
+ margin-left:-60px;
+}
+
+
+.traineeDetail .partOne{
+    display:flex;
+    flex-direction:row;
+ margin-top:-14px;
+}
+
+.traineeDetail .partTwo{
+    display:flex;
+    flex-direction:row;
+     margin-top:17px;
+}
+
+.traineeDetail .fullTime{
+    margin-left:50px;
+}
+
+.traineeDetail .other{
+    margin-left:55px;
+}
+
+
+
+/* Styling content inside upload image */
+.traineeDetail .uploadField{
+    text-align:center;
+    border:5px solid rgb(74, 109, 161);
+    border-radius:15px;
+    width:90px;
+    margin-top:15px;
+    height:85px;
+    margin-left:2%; 
+  } 
+
+  .traineeDetail  .icon-img{
+    margin-top:-10px;
+    height:45px;
+
+  }
+
+
+  .traineeDetail .selectImage{
+    color:rgb(1, 5, 6);
+    font-size:13px; 
+    font-family:Poppins,sans-serif;
+  }
+/* 
+#inputTag{
+    display: none;
+  } */
+  .traineeDetail  .PhotoLabel{
+    cursor:pointer;
+    margin-left: -10px;
+    margin-top: -12px;
+  }
+
+
+
+/* Here, styling the contents inside previous-employemnt and reference section */
+.traineeDetail   .employmentReference{
+    display:flex; 
+    flex-direction:row;
+  }
+
+  .traineeDetail .previousRow{
+    box-sizing:border-box;
+    width: 470px;
+    border: 1px solid rgb(108, 140, 169);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:5px;
+    border-radius: 10px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-family:poppins, sans-serif;
+    color: rgb(255, 254, 255);
+    font-weight: bold;
+    height:40px;
+  
+}
+
+
+.traineeDetail .previousEmploymentcontainer{
+    padding:6px;
+    width:500px;
+    margin-left:5.5%;
+    border-radius: 10px; 
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%);
+    margin-top:15px;
+}
+
+.traineeDetail .previousEmployment{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8;
+    text-align: center;
+    color:rgb(3, 78, 66);
+    height:2rem;
+    padding-top:3px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.07em;
+    font-style: italic;
+}
+
+.traineeDetail .referenceContainer{
+    padding:6px;
+    width:500px;
+    margin-left:5.5%;
+    border-radius: 10px; 
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #1e0321 0%, #0d324d 74%);
+    margin-top:15px;
+}
+
+.traineeDetail .referenceRow{
+    box-sizing:border-box;
+     width: 470px;
+     border: 1px solid rgb(108, 140, 169);
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left:5px;
+     border-radius: 10px;
+     margin-top: 13px;
+     font-size: 14px;
+     font-family:poppins, sans-serif;
+     color: rgb(255, 254, 255);
+     font-weight: bold;
+     height:40px;
+}
+
+.traineeDetail .reference{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;  
+    border: solid 1px rgb(140, 175, 167); 
+    background-color: #97afb8; 
+    text-align: center;
+    height:2rem;
+    padding-top:3px;
+    margin-top:1px;
+    text-decoration-line:underline;
+    word-spacing:0.1em;
+    letter-spacing:0.07em;
+    font-style: italic;
+    
+}
+
+
+/* Here, styling the contents of skill, interest and expect  */
+.traineeDetail .notice{
+        font-size: 10px; 
+        background-color:#353331; 
+        border-bottom: solid 4px rgb(24, 22, 22);
+        text-align: center;
+        color:rgb(255, 255, 255);
+        height: 4rem;
+        padding-top:4px;
+        margin-top:5px;
+        word-spacing:0.1em;
+       font-family:poppins,sans-serif;     
+    }
+
+    .traineeDetail .lastflex{
+    display:flex;
+     flex-direction:column;
+     border:0px solid #272119;
+     margin-top: 20px;
+     background:	#dcd9c8;
+    box-shadow: 5px 10px #39260d; 
+    height:250px;
+    margin-bottom:40px;     
+}
+
+.traineeDetail .lastHead{
+    margin-left:15px;
+    font-family:poppins, sans-serif;
+    font-size:19px;
+    color: #50084b;
+    
+}
+
+.traineeDetail .skill{
+    width: 21%;
+    margin-left:75px;
+}
+
+
+.traineeDetail .inputInterest{
+    
+  
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-left:15px;
+   
+    margin-bottom: 10px;
+    color:rgb(0, 0, 0);
+    
+}
+
+.traineeDetail .interest{
+    width: 22%;
+    margin-left:100px;
+
+}
+
+/* .expect lastflex{
+ width:40%;
+ margin-left:140px;
+ height:30px;
+} */
+.traineeDetail .expect{
+    margin-left:90px;
+    display:flex;
+     flex-direction:column;
+     border:0px solid #272119;
+     margin-top: 17px;
+     background:	#dcd9c8;
+    box-shadow: 5px 10px #39260d; 
+    width:360px;
+    height:200px;
+} 
+
+.traineeDetail .inputExpect{
+    border:none;
+    /* border-bottom: 1px solid rgb(0, 179, 255); */
+    background-color: transparent;
+    outline: none;
+    width:80%;
+    margin-left:15px;
+    height:150px;
+    margin-bottom: 130px;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+}
+
+
+/* styling submit button */
+.traineeDetail .submitContainer{
+    margin-left:93px;
+    margin-top:15px;
+
+}
+
+.traineeDetail .btnAndexpect{
+    flex-direction:column;
+}
+.traineeDetail #btnSubmit{
+    height:35px;
+    width:80px;
+    border:1px solid teal;
+    border-radius: 8px;
+    background-color:teal;
+    color:lightcyan;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.traineeDetail #btnSubmit:hover{
+    background-color:rgb(64, 8, 97);
+}
+
+
+
+
+
+/*Coding of media query started*/
+
+@media screen and (max-width: 480px) {
+    body{
+        border:5px solid rgb(0, 6, 9);
+    }
+    .firstHead{
+    height: 90px;
+    font-size:22px;
+    font-family: sans-serif;
+    font-weight:normal;
+    margin-left:10px;
+    }
+
+    .container, .employmentReference{
+        display:flex;
+        flex-direction: column;
+        margin-left:-22px;
+    }
+    
+    .personalContainer, .educationContainer, .previousEmploymentcontainer, .referenceContainer{
+        width:90%;
+        margin-bottom:10px;
+    }
+
+    .personalRow, .educationRow, .previousRow, .referenceRow{
+      width:90%;  
+    }
+    
+    .addButton{
+        margin-left: 160px;
+    }
+
+    table{
+        width:99%;
+        margin-left:-1px;
+    }
+    
+    .chooseContainer{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .questionContainer{
+        margin-left:-1px;
+        width:400px;
+        height:100px;
+    }
+    .questionOne{
+        font-size:17px;
+    }
+
+    .jobTypecontainer{
+        margin-left:-2px;
+        width:90%;
+    }
+
+    .lastSection{
+      display:flex;
+      flex-direction:row;
+    }
+
+    .skill{
+        width:65%;
+    }
+
+    .interest{
+        margin-left:70px;
+        width:65%;
+    }
+
+    .expect{
+        margin-left:70px;
+        height: 150px;
+        width:65%;
+    }
+
+    .submitContainer{
+        margin-left:180px;
+        margin-top:15px;
+        margin-bottom:6px ;
+    }
+    }
+
+  
