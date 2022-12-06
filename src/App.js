@@ -14,6 +14,7 @@ import ViewLog from './Components/Log/ViewLog';
 import ViewCV from './Components/CV/ViewCV';
 import DashBoard from './Layout/DashBoard';
 import LoginContext from './Context/LoginContext';
+import Payment from './Layout/Payment';
 //import Create from './Components/CV/Create';
 function App() {
   const [URL, setURL] = useState([]);
@@ -37,6 +38,7 @@ function App() {
         <Route exact path="/createLog" element={<CreateLog/>}/>
         <Route exact path="/viewLog" element={<ViewLog/>}/>
         <Route exact path="/ViewCV" element={<ViewCV/>}/>
+        <Route exact path="/payment" element={<Payment/>}/>
        {/* <Route exact path="/Create" element={<Create/>}/> */}
       </Routes>
       </LoginContext.Provider> 
@@ -44,6 +46,7 @@ function App() {
     
     </Router>
    </div> 
+   
   );
 }
 

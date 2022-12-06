@@ -714,7 +714,7 @@ const [referenceDatas, setreferenceDatas] = useState([]);
                     </div>
                     <div className='Skills'>
                         <h2>Skills</h2>
-                        <input type='text' name='Skill' value={skillValues.Skill} onChange={handleSkillChange}/>
+                        <input type='text' name='Name' value={skillValues.Name} onChange={handleSkillChange}/>
                     </div>
                     <table className="tables">
                         <thead>

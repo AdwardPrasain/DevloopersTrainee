@@ -5,11 +5,19 @@ import LoginContext from '../../Context/LoginContext';
 import './TraineeDetails.css'
 
 function TraineeDetails() { 
+  const {ClientUserName, URL} =  useContext(LoginContext);
+  const [ClientGUID, setClientGUID] = useState("");
 
-  const {ClientUserName, ClientGUID, URL} =  useContext(LoginContext);
+  function createGuid () {
+   
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+    });
+}
+
   const initialTraineeValues={
-    clientusername:ClientUserName,
-    clientguid: ClientGUID,
+    clientguid: '',
     fullName: '',
     permanentAdd:'',
     currentAdd:'',
@@ -76,18 +84,18 @@ function TraineeDetails() {
 
       
       const PostTraineeDetails = async () => {
+        setIsSubmit(true);
+        setTraineeValues({ ...TraineeValues, clientusername: TraineeValues.contactNum });
       
         const result = await axios.post(URL + "TraineeDetails", TraineeValues);
-        //navigate("/");
-        console.log(result);
+       
         if(result.data == -1){
           alert("Data Saved Successfully");
+          setIsSubmit(false);
         }
         else {
           alert("Data cannot be Saved");
         }
-        loadTraineeData();
-        setIsSubmit(false);
     
       }
     
@@ -235,9 +243,9 @@ return (
           <div className="form-group">
             <div className="gender">  
               <label>Gender:</label>
-              <input type="Radio" id="Gender" name="gender" value={TraineeValues.gender}/>Male
-              <input type="Radio" id="Gender" name="gender" value={TraineeValues.gender}/>Female
-              <input type="Radio" id="Gender" name="gender" value={TraineeValues.gender}/>Other
+              <input type="Radio" id="Gender" name="gender" value="Male" onChange={handleTraineeChange} checked={TraineeValues.gender === "Male"}/>Male
+              <input type="Radio" id="Gender" name="gender" value="Female" onChange={handleTraineeChange} checked={TraineeValues.gender === "Female"}/>Female
+              <input type="Radio" id="Gender" name="gender" value="Other" onChange={handleTraineeChange} checked={TraineeValues.gender === "Other"}/>Other
             </div>
             </div>
             <div className="form-group">
@@ -268,8 +276,8 @@ return (
       <div className="form-group">
         <div className="below-table">
           <p>Are you currently undertaking study/training?(tick one)</p>
-          <input type="Radio" id="y" name="yes" value={TraineeValues.training}/>Yes
-          <input type="Radio" id="y" name="yes" value={TraineeValues.training}/>No
+          <input type="Radio" id="y" name="yes" value="Yes" onChange={handleTraineeChange} checked={TraineeValues.training === "Yes"}/>Yes
+          <input type="Radio" id="y" name="yes" value="No" onChange={handleTraineeChange} checked={TraineeValues.training === "No"}/>No
         </div>
     </div>
     <div className="form-group">
@@ -283,10 +291,10 @@ return (
       <div className="form-group">
         <div className="jobType">  
           <label>Available For: </label>
-          <input type="Radio" id="job" name="Job" value={TraineeValues.availableFor}/>Full-Time
-          <input type="Radio" id="job" name="Job" value={TraineeValues.availableFor}/>Remote
-          <input type="Radio" id="job" name="Job" value="Part-Time"/>Part-Time
-          <input type="Radio" id="job" name="Job" value="Other"/>Other
+          <input type="Radio" id="job" name="Job" value="fullTime" onChange={handleTraineeChange} checked ={TraineeValues.availableFor === "fullTime"}/>Full-Time
+          <input type="Radio" id="job" name="Job" value="Remote" onChange={handleTraineeChange} checked ={TraineeValues.availableFor === "Remote"}/>Remote
+          <input type="Radio" id="job" name="Job" value="partTime" onChange={handleTraineeChange} checked ={TraineeValues.availableFor === "Other"}/>Part-Time
+          <input type="Radio" id="job" name="Job" value="Other" onChange={handleTraineeChange} checked ={TraineeValues.availableFor === "Other"}/>Other
         </div>
         </div>
     </div>

@@ -1,0 +1,14 @@
+.paymentplan{
+    margin:5%;
+    display: flex;
+    justify-content: space-around;
+}
+.Paymenthead{
+    width:300px;
+    height:30px;
+    text-align: center;
+    background-color: cadetblue;
+}
+.paymentdiv{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

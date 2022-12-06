@@ -14,6 +14,7 @@ function NavBar() {
       <Link to="/ViewCV" className="nav-link">View CV</Link>
       <Link to="/createLog" className="nav-link">Create Log</Link>
       <Link to="/viewLog" className="nav-link">View Log</Link>
+      <Link to="/payment" className="nav-link">Package</Link>
     </nav>
     </div>
   )
