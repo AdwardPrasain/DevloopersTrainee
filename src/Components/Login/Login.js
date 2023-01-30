@@ -17,7 +17,7 @@ function Login() {
 		alert("Login success");
 		e.preventDefault();
 
-		setURL("http://tsnpl.com.np/traineeapi/api/");
+		setURL("https://localhost:44310/api/");
 		setClientUserName("9813715932");
 		setClientGUID("456");
 
